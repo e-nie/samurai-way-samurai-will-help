@@ -12,9 +12,9 @@ export const Messages = (props: MessagesPropsType) => {
             <div>
                 {props.data2.map(el => {
                     return (
-                        <div key={el.id} style={{display:'flex', justifyContent:'space-around'}}>
-                            <li>{el.name}</li>
-                            <li>{el.message}</li>
+                        <div key={el.id} className={'messagesContainer'}>
+                            <div>{el.name}</div>
+                            <div>{el.message}</div>
                         </div>
                     )
                 })}

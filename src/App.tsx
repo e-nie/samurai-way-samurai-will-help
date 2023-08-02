@@ -29,7 +29,7 @@ function App() {
     ]
 
     return (
-        <div className = "App">
+        <div className = "App" >
             <Home  data1={data1}/>
             <Messages data2={data2} />
         </div>
